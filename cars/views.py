@@ -90,7 +90,6 @@ class NewCarCreateView(CreateView): # Nova view
     template_name = 'new_car.html'
     success_url = '/cars/'
 
-
 # Detail view (Serve para ver detalhes das fotos dos carros)
 
 class CarDetailView(DetailView): 
